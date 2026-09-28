@@ -1,0 +1,150 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+% Edited for: Ali Abbas -- DATA ROLES VERSION
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ali Abbas} \\ \vspace{1pt}
+    \small +1 (236) 998-8396 $|$ \href{mailto:ali.r.abbas.2005@gmail.com}{\underline{ali.r.abbas.2005@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/alirazaabbas/}{\underline{linkedin.com/in/alirazaabbas/}} $|$
+    \href{https://github.com/a-lie101}{\underline{github.com/a-lie101}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of British Columbia}{September 2023 -- April 2028}
+      {BSc. Data Science - Outstanding International Student Award}{Vancouver, BC}
+  \resumeSubHeadingListEnd
+
+
+%-----------WORK EXPERIENCE-----------
+%-----------WORK EXPERIENCE-----------
+\section{Technical Experience}
+    \resumeSubHeadingListStart
+
+    \resumeProjectHeading{\textbf{Technical Product Manager} $|$ \emph{ESGTree, ESG SaaS Startup} $|$ Remote}{Jun 2026 -- Dec 2026}
+  \resumeItemListStart
+    \resumeItem{Developed an \textbf{ETL pipeline} merging four Canadian government data sources into a unified field-level schema, letting the platform estimate a farm's emissions from public data alone instead of requiring farmer surveys.}
+    \resumeItem{Automated \textbf{geospatial} processing of 30m satellite imagery and national soil surveys in \textbf{Python}, deriving multi-year crop histories for each field.}
+    \resumeItem{Shipped a reusable \textbf{Python} package that scores crop rotations, benchmarked against published provincial agronomic and cost-of-production data.}
+    \resumeItem{Designed a \textbf{React} and \textbf{Leaflet} lender dashboard mapping 78 sample farm operations by emissions intensity, with per-farm drill-down and \textbf{Excel} export, demoed to multiple Canadian banks and credit unions.}
+    \resumeItem{Maintain emission factor reference data and bilingual content for v2 of the company's \textbf{financed emissions} calculator, now piloting with \textbf{Desjardins}.}
+  \resumeItemListEnd
+
+    \resumeProjectHeading{\textbf{Data \& Signals Developer} $|$ \emph{UBC MINT Engineering Design Team} $|$ Vancouver, BC}{Sep 2024 -- Present}
+    \resumeItemListStart
+      \resumeItem{Built \textbf{EEG and EMG} signal-cleaning pipelines in \textbf{Python} and \textbf{SciPy} (filtering, noise removal, normalization) that prepare brain and muscle signals for a biosignal-controlled robotic arm.}
+      \resumeItem{Merged two duplicated data-validation scripts into one \textbf{quality-control module} that flags dead channels, saturation, drift, and electrical interference, tested against simulated faults.}
+      \resumeItem{Created a real-time EEG streaming dashboard in \textbf{Next.js} and \textbf{WebSockets} handling \textbf{256 messages/sec}, with \textbf{CSV} import/export for offline analysis and reproducible runs.}
+    \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Data Engineering \& Analytics Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Engine Fault Detection Pipeline} $|$ \emph{Python, Pandas, Scikit-Learn, AWS S3, Streamlit, Docker}}{}
+          \resumeItemListStart
+            \resumeItem{Built an \textbf{end-to-end ML pipeline} processing NASA C-MAPSS turbofan sensor data through schema validation, rolling-window feature engineering, and Random Forest fault classification, with versioned model artifacts persisted to \textbf{AWS S3} via a swappable storage layer.}
+            \resumeItem{Used engine-grouped cross-validation to prevent data leakage between consecutive sensor readings from the same unit, achieving \textbf{0.88 F1} and \textbf{0.93 recall} on held-out engines.}
+            \resumeItem{Deployed an interactive \textbf{Streamlit dashboard} ranking engines by predicted failure risk, backed by a containerized pipeline (\textbf{Docker}) with automated tests covering the no-leak split guarantee.}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Spotify Chart Sustainability Analysis} $|$ \emph{Python, Oracle SQL, MongoDB, Scikit-Learn}}{}
+          \resumeItemListStart
+            \resumeItem{Designed and built a multi-source \textbf{ETL pipeline} processing \textbf{30,000+} records across Spotify Audio Features, Billboard Hot 100, and Charts datasets, resolving entity-resolution conflicts across mismatched schemas.}
+            \resumeItem{Implemented parallel relational (\textbf{Oracle SQL}) and document (\textbf{MongoDB}) schemas and benchmarked query performance across the different implementations.}
+            \resumeItem{Built a multivariate \textbf{linear regression} model (\textbf{Scikit-Learn}) predicting chart longevity from audio features, applying hypothesis testing to isolate the audio features with statistically significant predictive power.}
+          \resumeItemListEnd
+
+
+    \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+  \textbf{Languages:} Python, SQL, R, JavaScript/TypeScript, Java \\
+  \textbf{Data \& ML:} Pandas, NumPy, SciPy, Scikit-Learn, ETL pipeline design, data modelling, schema design (relational \& document), feature engineering, regression, classification, cross-validation, hypothesis testing, model evaluation \\
+  \textbf{Databases \& Tools:} PostgreSQL, Oracle SQL, MongoDB, Google Earth Engine, Docker, AWS S3, Streamlit, Git, REST, WebSockets
+}}
+\end{itemize}
+
+%-------------------------------------------
+\end{document}

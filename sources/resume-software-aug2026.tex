@@ -1,0 +1,162 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez (template)
+% Edited for: Ali Abbas
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small #3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small #1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small #1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ali Abbas} \\ \vspace{1pt}
+    \small +1 (236) 998-8396 $|$ \href{mailto:ali.r.abbas.2005@gmail.com}{\underline{ali.r.abbas.2005@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/alirazaabbas/}{\underline{linkedin.com/in/alirazaabbas/}} $|$
+    \href{https://github.com/a-lie101}{\underline{github.com/a-lie101}}
+\end{center}
+
+%-----------SUMMARY (ATS keywords)-----------
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {University of British Columbia}{Sept. 2023 -- April 2028}
+    {B.Sc. Mathematics (Minor in Data Science) \;--\; OIS Award}{Vancouver, BC}
+
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading{\textbf{Product Engineer @ ESGTree}}{June 2026 -- Present}
+  \resumeItemListStart
+    \resumeItem{Designed the \textbf{data model} and \textbf{two-phase pipeline architecture} for an engine that converts lender \textbf{loan-file data} and public datasets into farm-level \textbf{cost and emissions estimates}.}
+    \resumeItem{Evaluated and integrated \textbf{Canadian public datasets} (Statistics Canada, Agriculture and Agri-Food Canada, Environment and Climate Change Canada, \textbf{satellite imagery}) to feed cost and emissions estimates across grains and greenhouse verticals.}
+    \resumeItem{Built a prototype \textbf{lender dashboard} and farm recommendation views in \textbf{Python} and \textbf{React} on synthetic grains data, turning loan-file inputs into emissions estimates and ranked financeable recommendations.}
+  \resumeItemListEnd
+
+  \resumeProjectHeading{\textbf{Frontend Developer @ UBC MINT Engineering Design Team}}{Sep 2024 -- Present}
+  \resumeItemListStart
+    \resumeItem{Worked on a real-time streaming visualization app in \textbf{Next.js} using \textbf{WebSockets} to simulate EEG data (256msg/s) with low-latency charts (\textbf{Recharts}) and responsive UI (\textbf{shadcn/ui, Radix UI, Tailwind CSS)}}
+    \resumeItem{Refactored legacy components to improve rendering performance of high-frequency signal charts, while collaborating with \textbf{UI/UX} designers to implement new features like \textbf{node-based signal processing} and session linking.}
+    \resumeItem{Engineered a bi-directional \textbf{Import/Export system} for EEG session data, enabling researchers to serialize live brainwave streams into CSV format for offline analysis, reproducibility, and cross-platform data sharing.}
+
+  \resumeItemListEnd
+
+  
+          \resumeProjectHeading{\textbf{Full-Stack Developer @ Electricity and Water Authority (EWA)}}{Jul 2025 -- Aug 2025}
+  \resumeItemListStart
+    \resumeItem{Built a full-stack \textbf{ticket management system} (Jira-like) with \textbf{React}, \textbf{Node.js/Express}, and \textbf{MongoDB}; designed \textbf{RESTful API} endpoints and collections for projects, tickets, and sprints.}
+    \resumeItem{Integrated \textbf{Slack API} webhooks for real-time updates and used \textbf{OpenAI (GenAI)} to auto-generate project status summaries and stand-up notes.}
+    \resumeItem{Collaborated using \textbf{Agile/Scrum} practices (stand-ups, sprint goals) and authored concise \textbf{project documentation}/runbooks.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Technical Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {\textbf{Engine Fault Detection Pipeline} $|$ \emph{Python, Docker, AWS S3, Streamlit, LangChain}}{}
+    \resumeItemListStart
+      \resumeItem{Built an end-to-end \textbf{data pipeline} (\textbf{Python}, \textbf{Pandas}) with modular stages for schema validation, rolling-window feature engineering, and fault classification, persisting versioned artifacts to \textbf{AWS S3} behind a \textbf{swappable storage layer} (local or cloud through one interface).}
+      \resumeItem{Containerized the pipeline with \textbf{Docker} and added \textbf{automated tests}, including a guardrail test enforcing no data leakage across the train/test split, for reproducible runs across environments.}
+      \resumeItem{Shipped an interactive \textbf{Streamlit} dashboard that ranks engines by predicted failure risk over a web UI; the backing \textbf{Random Forest} model reached \textbf{0.88 F1} and \textbf{0.93 recall} on held-out engines.}
+    \resumeItemListEnd
+
+
+    \resumeProjectHeading
+    {\textbf{Spotify Chart Sustainability Analysis} $|$ \emph{Python, Oracle, MongoDB}}{}
+    \resumeItemListStart
+        \resumeItem{Engineered an \textbf{ETL} pipeline using \textbf{Python} to clean and synthesize \textbf{30,000+} records across three disparate datasets (Spotify Audio Features, Charts, Billboard Hot 100), resolving complex entity resolution conflicts.}
+        \resumeItem{Designed and implemented a normalized relational schema in \textbf{Oracle SQL} for structured querying, and a comparative document-based schema in \textbf{MongoDB} to analyze query performance trade-offs for music data.}
+        \resumeItem{Developed a multivariate \textbf{linear regression} model using \textbf{Scikit-Learn} to predict song popularity based on audio features (danceability, speechiness), utilizing hypothesis testing to quantify the factors driving chart longevity.}
+\resumeItemListEnd
+          
+
+\resumeSubHeadingListEnd
+
+
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Languages:} Python, JavaScript/TypeScript, Java, SQL, C++, R, LaTeX \\
+\textbf{Frameworks \& Web:} React, Next.js, Node.js/Express.js, REST APIs, WebSockets, Tailwind CSS \\
+\textbf{Cloud, Data \& Tools:} Docker, AWS (S3), Git, PostgreSQL, MongoDB, Oracle SQL, ETL, Git/Github \\
+}}
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,57 @@
+Placement Term:	2027 - Winter
+Job Title :	W27 Digital Solutions Developer Student 185052
+Position Type:	Co-op Position
+Job Location:	Markham, ON
+Country:	Canada
+Duration:	4 or 8 months
+Salary Currency:	CAD
+Salary:	$19.00 hourly for 0 hours per week
+Salary Range $:	$19 - $24
+Number of Openings:	1
+Job Description:
+Job Title: Digital Solutions Developer Student (4-12 Months)
+
+Job Description:
+
+About Us
+
+The Miller Group, a subsidiary of Colas Canada, is a Canadian leader in the construction and maintenance of transportation infrastructure since 1917.
+
+We provide exceptional customer service and operational support using our time-proven construction methods and innovative technologies, alongside the highest quality products and materials.
+
+We leverage our global network to foster positive relationships that make a lasting difference in the communities where we live and work. Whether it is making your commute more efficient, keeping our communities safe, or making remote areas more accessible, at Miller we are proud to Build Greatness in everything we do.
+
+Day in the Life
+
+This is a hands-on technical student role focused on automation, application development, data, AI tools & digital problem solving. Working closely with the HR R&D Team Lead & Coordinator, you'll help turn ideas into practical solutions using Microsoft Power Platform, SharePoint, SQL, APIs & emerging technologies. You'll contribute to solution design discussions, build new solutions, enhance existing ones, investigate issues, test improvements & help ensure solutions remain scalable, maintainable & user-friendly.
+
+Most days start with checking automations, troubleshooting issues or picking up a new enhancement request. You might spend part of the day building a Power App, improving a flow, writing SQL queries or figuring out why a connector suddenly stopped cooperating.
+
+Some days you'll be improving existing tools, other days you'll be building something completely new. You'll experiment with AI, automation & emerging technologies while gaining hands-on experience with enterprise systems used across the company.
+
+If you enjoy building things, solving puzzles, learning new technologies & seeing your work make a real impact, you'll fit right in.
+
+Compensation Data
+
+Hourly $19 - $24
+
+Culture
+
+At Miller, we want every employee to feel connected, where creativity and innovation thrive, and your contributions make a real impact. Our supportive and inclusive atmosphere encourages open communication, ensuring every team member feels heard and valued. With a commitment to flexibility, opportunities for professional development, and a shared passion for excellence, we are more than just colleagues - we are a community dedicated to Building Greatness together.
+
+If you are seeking a workplace that values employees, challenges you to reach new heights, and celebrates your achievements, Miller is the place for you. Build your career with us!
+
+Our Company may use artificial intelligence (AI) tools to assist with sourcing potential candidates. All screening, assessment, and hiring decisions are made exclusively by our internal team. Every application is reviewed and verified by our recruitment team to ensure a fair, transparent, and human-driven hiring process. This posting reflects an existing vacancy.
+
+Job Requirements:
+Qualifications
+
+Currently enrolled in 3rd/4th year of a post-secondary program in Computer Science, Software Engineering, Information Systems, or a related program
+Equivalent experience may be considered, including self-directed learning, technical certifications, bootcamps, GitHub portfolios, application development projects, automation projects or open-source contributions
+Experience building solutions using Microsoft Power Platform, including Power Automate & Power Apps
+Experience designing, maintaining & troubleshooting Power Automate workflows
+Experience writing SQL queries & working with relational databases
+Understanding of data structures, relational data models & system design concepts
+Experience working with APIs, HTTP requests, JSON & system integrations
+Experience configuring SharePoint lists, permissions, metadata & information architecture
+Experience with some/all of: Power Automate, Power Apps, Copilot Studio, SharePoint, SQL, Power Query, Rest APIs, HTTP requests, JSON, HTML/CSS, Python, VBA, Dataverse

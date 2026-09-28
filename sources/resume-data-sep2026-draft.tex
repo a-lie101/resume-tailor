@@ -1,0 +1,163 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ali Abbas} \\ \vspace{1pt}
+    \small +1 (236) 998-8396 $|$ \href{mailto:ali.r.abbas.2005@gmail.com}{\underline{ali.r.abbas.2005@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/alirazaabbas/}{\underline{linkedin.com/in/alirazaabbas/}} $|$
+    \href{https://github.com/a-lie101}{\underline{github.com/a-lie101}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of British Columbia}{September 2023 -- April 2028}
+      {BSc. Data Science - Outstanding International Student Award}{Vancouver, BC}
+  \resumeSubHeadingListEnd
+
+
+
+
+%-----------WORK EXPERIENCE-----------
+\section{Technical Experience}
+    \resumeSubHeadingListStart
+
+    \resumeProjectHeading{\textbf{Data \& Product Engineer} $|$ ESGTree -- ESG Reporting SaaS Startup}{June 2026 -- Present}
+  \resumeItemListStart
+    \resumeItem{Designed the \textbf{data model} and a \textbf{two-phase pipeline} (broad activity-based estimates, then deep per-segment) for an engine that converts lender \textbf{loan-file data} and public datasets into farm-level \textbf{cost and emissions estimates}.}
+    \resumeItem{Integrated \textbf{Canadian data sources} (Statistics Canada, Agriculture and Agri-Food Canada, NDVI satellite imagery) with the \textbf{Holos} whole-farm model and \textbf{PCAF} emission factors to produce activity-based estimates.}
+    \resumeItem{Attached a \textbf{PCAF 1--5 data-quality score} to every estimate, sharpening as farmer-supplied data is ingested, and mapped efficiency levers into a \textbf{detect-size-act} ranking of financeable actions per farm.}
+    \resumeItem{Built a prototype of the two-sided product, a \textbf{lender portfolio dashboard} and \textbf{farmer recommendation views}, in \textbf{Python} and \textbf{React} on synthetic grains data.}
+  \resumeItemListEnd
+ 
+    \resumeProjectHeading{\textbf{Machine Learning Developer} $|$ \emph{UBC MINT Engineering Design Team}}{Sep 2024 -- Present}
+    \resumeItemListStart
+      \resumeItem{Built a real-time \textbf{EEG streaming visualization} platform (\textbf{Next.js}, \textbf{WebSockets}) ingesting \textbf{256 messages/sec}, plus a bidirectional \textbf{CSV import/export} system enabling offline analysis and reproducible runs.}
+      \resumeItem{On the Signals \& ML sub-team for an \textbf{EEG + EMG} hybrid robotic-arm project, developing intention-detection classifiers (grip / release / move / stop) with confidence-scoring logic to filter false commands.}
+      \resumeItem{Building \textbf{EEG/EMG} signal-processing pipelines --- filtering, artifact removal, windowing, feature extraction --- feeding downstream classification and per-user calibration.}
+    \resumeItemListEnd
+ 
+ 
+    \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS (moved up, renamed, reordered)-----------
+\section{Data Engineering \& Analytics Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Engine Fault Detection Pipeline} $|$ \emph{Python, Pandas, Scikit-Learn, AWS S3, Streamlit, Docker}}{}
+          \resumeItemListStart
+            \resumeItem{Built an \textbf{end-to-end ML pipeline} processing NASA C-MAPSS turbofan sensor data through schema validation, rolling-window feature engineering, and Random Forest fault classification, with versioned model artifacts persisted to \textbf{AWS S3} via a swappable storage layer.}
+        \resumeItem{Used engine-grouped cross-validation to prevent data leakage between consecutive sensor readings from the same unit, achieving \textbf{0.88 F1} and \textbf{0.93 recall} on held-out engines.}
+        \resumeItem{Deployed an interactive \textbf{Streamlit dashboard} ranking engines by predicted failure risk, backed by a containerized pipeline (\textbf{Docker}) with automated tests covering the no-leak split guarantee.}
+    
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Spotify Chart Sustainability Analysis} $|$ \emph{Python, Oracle SQL, MongoDB, Scikit-Learn}}{}
+          \resumeItemListStart
+            \resumeItem{Designed and built a multi-source \textbf{ETL pipeline} processing \textbf{30,000+} records across Spotify Audio Features, Billboard Hot 100, and Charts datasets, resolving entity-resolution conflicts across mismatched schemas.}
+            \resumeItem{Implemented parallel relational (\textbf{Oracle SQL}) and document (\textbf{MongoDB}) schemas and benchmarked query performance across paradigms, with the relational (Oracle SQL) implementation outperforming the document store across the tested query patterns.}
+            \resumeItem{Built a multivariate \textbf{linear regression} model (\textbf{Scikit-Learn}) predicting chart longevity from audio features, applying hypothesis testing to isolate the audio features with statistically significant predictive power.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Predictive Modeling for Medical Diagnosis} $|$ \emph{R, JupyterLab}}{}
+          \resumeItemListStart
+            \resumeItem{Developed classification models (\textbf{KNN}) in \textbf{R} for early heart disease diagnosis, achieving \textbf{77.5\% accuracy}, \textbf{79.7\% precision}, and \textbf{75.0\% recall} on held-out test data. Performed preprocessing on a multi-factor clinical dataset.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+  \textbf{Languages \& Databases:} Python, SQL (data querying), R, JavaScript/TypeScript; PostgreSQL, Oracle, MongoDB \\
+  \textbf{Data \& ML:} ETL pipeline design, data modelling, schema design (relational \& document), time-series forecasting, feature engineering; Scikit-Learn, Pandas, NumPy, regression, clustering, model evaluation, Power BI, Streamlit, Docker \\
+  \textbf{Tools \& Frameworks:} Docker, AWS S3, REST, WebSockets, Git; React, Node.js/Express, AI Agent Workflows, Microsoft Office
+}}
+\end{itemize}
+
+
+
+%-------------------------------------------
+\end{document}

@@ -1,0 +1,58 @@
+Placement Term:	2027 - Winter
+Job Title :	W27 Maintenance Analytics Developer 185053B
+Position Type:	Co-op Position
+Job Location:	Fort Saskatchewan, AB
+Country:	Canada
+Duration:	8 or 12 months
+Work Mode:	
+In-Person
+Salary Currency:	CAD
+Salary:	Salary Not Available, 0 hours per week
+Number of Openings:	1
+Job Description:	
+Job Title: Co-op, Maintenance Analytics Developer
+
+Job ID: 34162
+
+Nutrien is a leading provider of crop inputs and services, and our business results make a positive impact on the world. Our purpose, Feeding the Future, is the reason we come to work each day. We're guided by our culture of care and our core values: We put safety first. We act with integrity. We are stronger together. We deliver with excellence.
+
+Through the collective expertise of our nearly 26,000 employees, we operate a world-class network of production, distribution, and ag retail facilities. We efficiently serve growers' needs and strive to provide a more profitable, sustainable, and secure future for all stakeholders.? Help us raise the expectation of what an agriculture company can be and grow your career with Nutrien.?
+
+Nutrien is seeking a motivated and analytical individual who is eager to learn and grow in a dynamic environment. The ideal candidate possesses strong analytical thinking, exceptional attention to detail, and excellent communication skills, with the ability to translate complex business questions into structured, data-driven solutions. A proactive mindset, adaptability, and a passion for continuous learning are essential for success in this role. While not required, preference will be given to candidates who bring previous work experience that demonstrates their ability to contribute effectively in a professional setting.
+
+Discover more about Nitrogen at Nutrien! An exciting co-op opportunity awaits a motivated student at our Fort Saskatchewan, Alberta site for an 8-12 month term.
+
+What You'll Do:
+Develop and maintain Power BI dashboards and reports to track maintenance and reliability KPIs.
+Perform data extraction, transformation, and loading (ETL) from multiple sources using Power Query.
+Create calculated columns, DAX measures, and impactful visualizations that tell clear data stories.
+Ensure data accuracy and consistency across all reporting solutions.
+Collaborate with Maintenance & Reliability teams to translate business needs into technical solutions.
+Conduct ad-hoc analyses to identify trends, anomalies, and root causes.
+Improve and organize electronic files to improve accuracy and accessibility
+Ready to make an impact with us? Apply today!??
+
+
+
+The estimated salary that Indeed, Glassdoor and LinkedIn lists does not represent Nutrien's compensation structure. Nutrien is an equal opportunity employer.? We evaluate qualified applicants without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, and other legally protected characteristics.??
+
+
+
+This job will remain posted until Thursday, October 8, 2026 at 11:59 PM MST. In accordance with Nutrien policies, you will be required to undergo a background check, and may be required to undergo a substance test. While we appreciate all applications we receive, only candidates under consideration will be contacted. Applicants must meet minimum age requirements, as permitted by law.?
+
+
+
+Please be advised that pre-screen interviews may be transcribed (there will be no audio or video recording) and that artificial intelligence tools may be used to summarize the transcript of the discussion. These tools will not be used to make or influence hiring decisions. Biometric identifiers and biometric information will not be captured. If you wish to request an alternative process or a reasonable accommodation, please contact the recruiter identified in this posting.
+
+
+
+Our Recruitment Process: Application > Resume Review > Pre-screen/Interview > Offer > Pre-Employment Conditions > Welcome to Nutrien?
+
+
+
+Job Requirements:	
+What You'll Bring:
+Current enrollment in a co-op program pursuing a degree in Data Science, Business Analytics, Computer Science, Statistics, Software Engineering, or related field. Preference is for work terms 4 and 5
+Coursework in Database Management/SQL, Data Modeling, and Data Visualization.
+Intermediate skills in Power BI and experience with ETL processes.
+Experience with SQL databases, Python, CMMS/EAM systems (e.g., SAP), or maintenance/reliability concepts (preferred).
